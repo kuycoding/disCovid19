@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/nav_menu_edu"
+        android:icon="@drawable/ic_book"
+        android:title="@string/edukasi"/>
+    <item
+        android:id="@+id/nav_menu_call"
+        android:icon="@drawable/ic_telephone"
+        android:title="@string/helper"/>
+    <!--<item
+        android:id="@+id/nav_menu_faq"
+        android:icon="@drawable/ic_qna"
+        android:title="@string/faq"/>-->
+</menu>

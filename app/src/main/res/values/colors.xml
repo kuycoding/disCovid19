@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7d62ef</color>
+    <color name="colorPrimaryDark">#7d62ef</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="font_body">#7d62ef</color>
+    <color name="font_sub">#b5b5b6</color>
+    <color name="grey_md_200">#231916</color>
+    <color name="grey">#717171</color>
+    <color name="grey_md_50">#9f9fa0</color>
+<!--    grafik-->
+    <color name="colorPositif">#b9aaf7</color>
+    <color name="colorSembuh">#8aca2b</color>
+    <color name="colorMeninggal">#7d62ef</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparen">#00000000</color>
+</resources>

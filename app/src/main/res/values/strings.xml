@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name">disCovid19</string>
+    <string name="home">Home</string>
+    <string name="edukasi">Edukasi</string>
+    <string name="call_center">Call Center</string>
+    <string name="faq">Faq</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="zero">0</string>
+    <string name="confirm">Positif</string>
+    <string name="death">Meninggal</string>
+    <string name="coronavirus_pandemic">Coronavirus Pandemic</string>
+    <string name="covid_19">COVID-19</string>
+    <string name="recovery">Sembuh</string>
+    <string name="last_update">Last update:</string>
+    <string name="cases_reported">Kasus Terlapor</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="klik_to_zoom">Cubit untuk zoom in atau zoom out</string>
+    <string name="case_per_prov">Kasus per provinsi</string>
+
+    <string name="pencegahan_list">
+        <li>Hindari bepergian ke tempat-tempat umum yang ramai pengunjung (social distancing).</li>\n
+        <li>Gunakan masker saat beraktivitas di tempat umum atau keramaian.</li>\n
+        <li>Rutin mencuci tangan dengan air dan sabun atau hand sanitizer yang mengandung alkohol minimal 60% setelah beraktivitas di luar rumah atau di tempat umum.</li>\n
+        <li>Meningkatkan daya tahan tubuh dengan pola hidup sehat.</li>\n
+        <li>Jangan menyentuh mata, mulut, dan hidung sebelum mencuci tangan.</li>\n
+        <li>Hindari kontak dengan hewan, terutama hewan liar. Bila terjadi kontak dengan hewan, cuci tangan setelahnya.</li>\n
+        <li>Masak daging sampai benar-benar matang sebelum dikonsumsi.</li>\n
+        <li>Tutup mulut dan hidung dengan tisu saat batuk atau bersin, kemudian buang tisu ke tempat sampah.</li>\n
+        <li>Hindari berdekatan dengan orang yang sedang sakit demam, batuk, atau pilek.</li>\n
+        <li>Jaga kebersihan benda yang sering disentuh dan kebersihan lingkungan.</li>\n
+    </string>
+
+    <string name="pengobatan_list">
+        <li>Merujuk penderita COVID-19 untuk menjalani perawatan dan karatina di rumah sakit yang ditunjuk</li>\n
+        <li>Memberikan obat pereda demam dan nyeri yang aman dan sesuai kondisi penderita</li>\n
+        <li>Menganjurkan penderita COVID-19 untuk melakukan isolasi mandiri dan istirahat yang cukup</li>\n
+        <li>Menganjurkan penderita COVID-19 untuk banyak minum air putih untuk menjaga kadar cairan tubuh</li>\n
+    </string>
+
+    <string name="penyebab_list">
+        <li>Tidak sengaja menghirup percikan ludah dari bersin atau batuk penderita COVID-19</li>\n
+        <li>Memegang mulut atau hidung tanpa mencuci tangan terlebih dulu setelah menyentuh benda yang terkena cipratan air liur penderita COVID-19</li>\n
+        <li>Kontak jarak dekat dengan penderita COVID-19, misalnya bersentuhan atau berjabat tangan</li>\n
+    </string>
+    <string name="gejala_list">
+        <li>Demam (Suhu > 37\u2103)</li>\n
+        <li>Batu</li>\n
+        <li>Sesak nafas</li>
+    </string>
+    <string name="gejala_menyertai_list">
+        <li>Sesak nafas yang berat</li>\n
+        <li>Sakik tenggorokan</li>\n
+        <li>Pilek</li>\n
+        <li>Merasa lelah</li>\n
+        <li>Nyeri otot</li>\n
+        <li>Diare</li>
+    </string>
+    <string name="gejala_tanpa_efek">Ada juga yang teinfeksi COVID-19, tetapi tidak menimbulkan gejala.\nJadi, penting bagi kita untuk melindungi diri dan mencegah penyebaran penyebaran COVID-19</string>
+    <string name="helper">Bantuan</string>
+
+    <!--    hotline-->
+    <string-array name="nama_hotline">
+        <item>Layanan Nasional Covid-19</item>
+        <item>Diskominfo</item>
+        <item>Pemerintah Daerah Aceh</item>
+        <item>RSUD Cut Meutia, Lhokseumawe, Kab. Aceh Utara</item>
+        <item>RSUD Dr Zaenal Abidin, Banda Aceh</item>
+
+        <item>RSUD Kabupaten Buleleng, Singaraja</item>
+        <item>RSUD Kabupaten Buleleng, Singaraja2</item>
+        <item>RSUD Sanjiwani, Gianyar</item>
+        <item>RSUP Sanglah, Denpasar</item>
+        <item>RSU Tabanan</item>
+
+        <item>RSU Kabupaten Tangerang</item>
+
+        <item>RSUD Arga Makmur, Kab. Bengkulu Utara</item>
+        <item>RSUD Dr M Yunus, Bengkulu</item>
+        <item>RSUD Dr M Yunus, Bengkulu 2</item>
+        <item>RSUD Hasannudin Damrah Manna, Kab. Bengkulu Selatan</item>
+        <!--        jogja-->
+        <item>Kontak Darurat DIY</item>
+        <item>RSUD Kota Yogjakarta</item>
+        <item>RSUD Kota Yogjakarta 2</item>
+        <item>RSUD Panembahan Senopati, Bantul</item>
+        <item>RSUD Panembahan Senopati, Bantul 2</item>
+        <item>RSUD Wates</item>
+        <item>RSUP dr. Sardjito, Sleman</item>
+        <item>RSUP dr. Sardjito, Sleman 2</item>
+        <!--        jakarta-->
+        <item>RSAL Mintoharjo, Jakarta Pusat</item>
+        <item>RSPAD Gatot Soebroto, Jakarta Pusat</item>
+        <item>RSUD Cengkareng, Cengkareng, Jakarta Barat</item>
+        <item>RSUD Pasar Minggu, Jakarta Selatan</item>
+        <item>RS Umum Bhayangkara Tk1 R Said Sukanto RS Polri, Jakarta Timur</item>
+        <item>RSUP Fatmawati, Jakarta Selatan</item>
+        <item>RSUP Persahabatan, Jakarta Timur</item>
+        <!--        gorontalo-->
+        <item>RSUD Prof Dr H Aloei Saboe</item>
+        <!--        jambi-->
+        <item>RSUD Raden Muttaher, Jambi</item>
+        <!--        jabar-->
+        <item>Dinas Kesehatan Jawa Barat</item>
+        <item>RSD Gunung Jati, Cirebon</item>
+        <item>RS Paru Dr H A Rotinsulu, Bandung</item>
+        <item>RS Paru Dr M Goenawan Partowidigdo, Bandung</item>
+        <item>RS TK II 03.05.01 Dustira, Cimahi</item>
+        <item>RSUD Dr Slamet Garut</item>
+        <item>RSUD Kabupaten Indramayu</item>
+        <item>RSUD R Syamsudin SH, Sukabumi</item>
+        <item>RSUD R Syamsudin SH, Sukabumi 2</item>
+        <item>RSUP Dr Hasan Sadikin, Bandung</item>
+
+        <!--        jateng-->
+        <item>Dinas Kesehatan Jawa Tengah 1</item>
+        <item>Dinas Kesehatan Jawa Tengah 2</item>
+        <item>Dinas Kesehatan Jawa Tengah (Free call)</item>
+        <item>RS dr Oen, Surakarta</item>
+        <item>RS Kasih Ibu, Surakarta</item>
+        <item>RS Paru Dr Aio Wirawan, Salatiga</item>
+        <item>RSU Bhayangkara, Semarang</item>
+        <item>RSU Columbia Asia, Semarang</item>
+        <item>RSUD Ambarawa</item>
+        <item>RSUD Bagas Waras, Klaten</item>
+        <item>RSUD Banyumas</item>
+        <item>RSUD Batang</item>
+        <item>RSUD Bendan, Pekalongan</item>
+        <item>RSUD Brebes</item>
+        <item>RSUD Cilacap</item>
+        <item>RSUD Djojonegoro, Temanggung</item>
+        <item>RSUD Dr H RM Soesolo, Slawi, Tegal</item>
+        <item>RSUD Dr H Soewondo, Kendal</item>
+        <item>RSUD Dr Loekmonohadi, Kudus</item>
+        <item>RSUD Dr M Ashari, Pemalang</item>
+        <item>RSUD Dr Moewardi, Solo</item>
+        <item>RSUD dr R Goeteng Taroenadibrata, Purbalingga</item>
+        <item>RSUD dr R Soedjati, Grobogan</item>
+        <item>RSU Mardi Rahayu, Kudus</item>
+        <item>RSUD RA Kartini, Jepara</item>
+        <!--        jatim-->
+        <item>RSUD Blambangan, Banyuwangi</item>
+        <item>RSUD Dr Iskak, Tulungagung</item>
+        <item>RSUD dr R Koesma, Tuban</item>
+        <item>RSUD Dr R Sosodoro Djatikoesoemo, Bojonegoro</item>
+        <item>RSUD Dr Saiful Anwar, Malang</item>
+        <item>RSUD Dr Soebandi, Jember</item>
+        <item>RSUD Dr Seobandi, Madiun</item>
+        <item>RSUD Dr Soetomo, Surabaya</item>
+        <!--        Kalbar-->
+        <item>Kontak Darurat Kalimantan Barat</item>
+        <item>Kontak Darurat Kalimantan Barat 2</item>
+        <!--        kalsel-->
+        <item>RSUD H Boejasi Pelaihari, Angsau, Kab Tanah Laut</item>
+        <item>RSUD H Boejasi Pelaihari, Angsau, Kab Tanah Laut 2</item>
+        <item>RSUD Ulin Banjarmasin</item>
+        <!--        kalteng-->
+        <item>RSUD Dr Doris Sylvanus, Palangkaraya</item>
+        <item>RSUD Dr Murjani, Sampit</item>
+        <item>RSUD Sultan Imanuddin, Pangkalan Bun</item>
+        <!--        kaltim-->
+        <item>RSUD Abdul Wahab Sjahranie, Samarinda</item>
+        <item>RSUD Aji Muhammad Parikesit, Tenggarong</item>
+        <item>RSUD Dr Kanujoso Djatiwibowo, Balikpapan</item>
+        <item>RSUD Panglimaa Sebaya, Kabupaten Paser</item>
+        <item>RSU Taman Husada, Bontang</item>
+    </string-array>
+
+    <string-array name="nomor_hotline">
+        <item>119</item>
+        <item>112</item>
+        <item>+6281370113666</item>
+        <item>+6264546334</item>
+        <item>+626265134562</item>
+        <!--bali-->
+        <item>+6236222046</item>
+        <item>+62362811202</item>
+        <item>+62361943049</item>
+        <item>+6236122791115</item>
+        <item>+62361811027</item>
+        <!--banten-->
+        <item>+62215523507</item>
+        <!--bengkulu-->
+        <item>+62737521118</item>
+        <item>+6273652004</item>
+        <item>+627365111</item>
+        <item>+6285381637684</item>
+        <!--        jogyakarta-->
+        <item>+628112764800></item>
+        <item>+62274371195></item>
+        <item>+62274386691></item>
+        <item>+62274367381></item>
+        <item>+62274367386></item>
+        <item>+62274773169></item>
+        <item>+62274631190></item>
+        <item>+62274587333></item>
+        <!--        jakarta-->
+        <item>+62215703081</item>
+        <item>+62213440693</item>
+        <item>+62216506559</item>
+        <item>+622154372874</item>
+        <item>+622129059999</item>
+        <item>+62218093288</item>
+        <item>+62217501524</item>
+        <item>+62214891708</item>
+        <!--        gorontalo-->
+        <item>+628124315555</item>
+        <!--        jambi-->
+        <item>+6274161692</item>
+        <!--        jabar-->
+        <item>+628112093306</item>
+        <item>+62231206330</item>
+        <item>+62223034446</item>
+        <item>+622518253630</item>
+        <item>+62226652207</item>
+        <item>+62262232720</item>
+        <item>+62234272655</item>
+        <item>+62266225180</item>
+        <item>+62266225181</item>
+        <item>+6222203495355</item>
+        <!--jateng-->
+        <item>(024) 3580713</item>
+        <item>082313600560</item>
+        <item>1500649</item>
+        <item>+62271643139</item>
+        <item>+62271714422</item>
+        <item>+62298326130</item>
+        <item>+62246720675</item>
+        <item>+62247629999</item>
+        <item>+62298591020</item>
+        <item>+622723359666</item>
+        <item>+62281796182</item>
+        <item>+622854493034</item>
+        <item>+62285437222</item>
+        <item>+62283671431</item>
+        <item>+62282533010</item>
+        <item>+62293491119</item>
+        <item>+62283491016</item>
+        <item>+62294381433</item>
+        <item>+62291431831</item>
+        <item>+62284321614</item>
+        <item>+62271634634</item>
+        <item>+62281891016</item>
+        <item>+62292421004</item>
+        <item>+62291438234</item>
+        <item>+62291591175</item>
+        <!--        jatim-->
+        <item>+62333421118</item>
+        <item>+62355322609</item>
+        <item>+62356321010</item>
+        <item>+623533412133</item>
+        <item>+62341362101</item>
+        <item>+62331487441</item>
+        <item>+62351464325</item>
+        <item>+62315501001</item>
+        <!--        kalbar-->
+        <item>+62215210411</item>
+        <item>+6281212123119</item>
+        <!--        kalsel-->
+        <item>+6251221083</item>
+        <item>+6251222009</item>
+        <item>+625113252180</item>
+        <!--        kalteng-->
+        <item>+625363224695</item>
+        <item>+6253121010</item>
+        <item>+6253221404</item>
+        <!--        kaltim-->
+        <item>+62541738118</item>
+        <item>+62541661015</item>
+        <item>+62542873901</item>
+        <item>+6254324563</item>
+        <item>+6254822111</item>
+    </string-array>
+
+    <!--    rumahsakit rujukan-->
+    <string-array name="rs_nama">
+        <item>RSUD Dr. H. Soewondo Kendal</item>
+    </string-array>
+
+    <string-array name="rs_alamat">
+        <item>Jl. Laut No.21, Ngilir, Kec. Kendal, Kabupaten Kendal, Jawa Tengah 51311</item>
+    </string-array>
+
+    <string-array name="rs_maps">
+        <item>https://www.google.com/maps?q=-6.917796,%20110.206254</item>
+    </string-array>
+
+    <string-array name="rs_call">
+        <item>0294381433</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

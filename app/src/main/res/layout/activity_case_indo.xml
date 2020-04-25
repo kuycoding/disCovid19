@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.activities.CaseIndoActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:id="@+id/layout_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_x2"
+        android:background="@drawable/bg_rounded_grey_small"
+        android:orientation="vertical"
+        android:padding="@dimen/space_x1_half"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <TextView
+            android:id="@+id/txt_province"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_md_200"
+            android:textSize="@dimen/text_12"
+            tools:text="DKI Jakarta" />
+
+        <TextView
+            android:layout_marginTop="@dimen/space_half"
+            android:id="@+id/txt_confirmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.App.TextView.H5.White.Bold"
+            android:textColor="@color/colorPositif"
+            android:textSize="@dimen/text_12"
+            tools:text="Confirmed : 220 " />
+
+        <TextView
+            android:id="@+id/txt_death"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.App.TextView.H5.White.Bold"
+            android:textColor="@color/colorMeninggal"
+            android:textSize="@dimen/text_12"
+            tools:text="Death : 220 " />
+
+
+        <TextView
+            android:id="@+id/txt_recovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.App.TextView.H5.White.Bold"
+            android:textColor="@color/colorSembuh"
+            android:textSize="@dimen/text_12"
+            tools:text="Recovered : 220 " />
+
+    </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginBottom="@dimen/space_x2"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toTopOf="@id/txt_info"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/space"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/bar_chart"
+                    android:layout_width="1000dp"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/space_x2"
+            android:text="@string/klik_to_zoom"
+            android:fontFamily="@font/googlesans_regular"
+            android:textColor="@color/grey_md_50"
+            android:textSize="@dimen/text_14"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/horizontalScrollView" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/case_per_prov"
+            android:layout_marginTop="@dimen/space_x2"
+            android:visibility="invisible"
+            android:layout_margin="@dimen/space_x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/case_per_prov"
+            android:fontFamily="@font/googlesans_bold"
+            android:textColor="@color/font_body"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_info"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_provinsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/case_per_prov" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
